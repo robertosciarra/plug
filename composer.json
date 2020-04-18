@@ -1,0 +1,24 @@
+{
+    "name": "robertosciarra/plug",
+    "description": "a compact and fast MVC PHP framework for Rapid Application Development",
+    "type": "project",
+    "license": "BSD-3-Clause-Clear",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Roberto Sciarra",
+            "email": "roberto.sciarra@openzone20.com",
+            "homepage": "http://www.openzone20.com/",
+            "role": "Original Developer"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.7",
+		"monolog/monolog": "^2.0"
+},
+	"autoload": {
+		"psr-4": {
+			"Plug\\": "App/"
+		}
+	}
+}
